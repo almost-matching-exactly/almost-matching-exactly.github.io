@@ -8,7 +8,7 @@ permalink: /overview
 # Algorithm Overview
 {: .no_toc }
 
-Read the descriptions below to determine which of our matching algorithms is right for you.
+Read the summaries below to determine which of our matching algorithms is right for you.
 {: .fs-6 .fw-300 }
 
 <details open markdown="block">
@@ -22,25 +22,93 @@ Read the descriptions below to determine which of our matching algorithms is rig
 
 ## Dynamic Almost Matching Exactly (DAME)
 
-<style>
-table tr:first-of-type {
-    width: 50%;
-}
-</style>
-
-| **Languages**: | Python |
-| **Input data**: | Categorical covariates, small to moderately-sized datasets |
-| **Matching method**: | Uses bit-vector computations to match units based on a learned, weighted Hamming distance |
-| **Paper**: | [Interpretable Almost Matching Exactly for Causal Inference](https://almostmatchingexactly.github.io/content/papers/DAME.pdf) |
+<table class="overview">
+  <tr>
+    <td><b>Languages</b>:</td> 
+    <td>Python</td>
+  </tr>
+  <tr>
+    <td><b>Input data</b>:</td>
+    <td>Categorical covariates, works best with small to moderately-sized datasets</td>
+  </tr>
+  <tr>
+    <td><b>Matching method</b>:</td>
+    <td>Uses bit-vector computations to match units based on a learned, weighted Hamming 
+    distance.</td>
+  </tr>
+  <tr>
+    <td><b>Paper</b>:</td>
+    <td><a>Interpretable Almost Matching Exactly for Causal Inference</a></td>
+  </tr>
+</table>
 
 ## Fast Large-Scale Almost Matching Exactly (FLAME)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo, ipsum sit amet posuere malesuada, odio ante rhoncus libero, eu fermentum mi enim id dolor. In non lacus vitae eros egestas blandit ac nec augue. Curabitur ac feugiat mi, ac aliquet erat. Nullam nisl odio, semper ut magna eget, congue eleifend tortor. Donec dignissim tortor id porta malesuada. Morbi luctus ex aliquet, rhoncus justo eu, pulvinar felis. Quisque quis leo ut nulla lobortis pulvinar.
+<table class="overview">
+  <tr>
+    <td><b>Languages</b>:</td> 
+    <td>R, Python</td>
+  </tr>
+  <tr>
+    <td><b>Input data</b>:</td>
+    <td>Categorical covariates, scales well to large datasets with millions of observations</td>
+  </tr>
+  <tr>
+    <td><b>Matching method</b>:</td>
+    <td>Uses bit-vector computations to match units based on a learned, weighted Hamming distance. 
+    FLAME successively drops irrelevant covariates to lessen the computational load while still 
+    maintaining enough covariates for high-quality conditional average treatment effect (CATE) 
+    estimation.</td>
+  </tr>
+  <tr>
+    <td><b>Paper</b>:</td>
+    <td><a>FLAME: A Fast Large-scale Almost Matching Exactly Approach to Causal Inference</a></td>
+  </tr>
+</table>
 
 ## Matching After Learning to Stretch (MALTS)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo, ipsum sit amet posuere malesuada, odio ante rhoncus libero, eu fermentum mi enim id dolor. In non lacus vitae eros egestas blandit ac nec augue. Curabitur ac feugiat mi, ac aliquet erat. Nullam nisl odio, semper ut magna eget, congue eleifend tortor. Donec dignissim tortor id porta malesuada. Morbi luctus ex aliquet, rhoncus justo eu, pulvinar felis. Quisque quis leo ut nulla lobortis pulvinar.
+<table class="overview">
+  <tr>
+    <td><b>Languages</b>:</td> 
+    <td>Python</td>
+  </tr>
+  <tr>
+    <td><b>Input data</b>:</td>
+    <td>Continuous, categorical, or mixed (continous and categorical) covariates</td>
+  </tr>
+  <tr>
+    <td><b>Matching method</b>:</td>
+    <td>Uses exact matching for discrete variables and learned, generalized Mahalanobis distances 
+    for continuous variables. Instead of a predetermined distance metric, the covariates 
+    contributing more towards predicting the outcome are given higher weights.</td>
+  </tr>
+  <tr>
+    <td><b>Paper</b>:</td>
+    <td><a>Matching After Learning To Stretch</a></td>
+  </tr>
+</table>
 
 ## Adaptive Hyper-Box Matching (AHB)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo, ipsum sit amet posuere malesuada, odio ante rhoncus libero, eu fermentum mi enim id dolor. In non lacus vitae eros egestas blandit ac nec augue. Curabitur ac feugiat mi, ac aliquet erat. Nullam nisl odio, semper ut magna eget, congue eleifend tortor. Donec dignissim tortor id porta malesuada. Morbi luctus ex aliquet, rhoncus justo eu, pulvinar felis. Quisque quis leo ut nulla lobortis pulvinar.
+<table class="overview">
+  <tr>
+    <td><b>Languages</b>:</td> 
+    <td>R</td>
+  </tr>
+  <tr>
+    <td><b>Input data</b>:</td>
+    <td>Continuous, categorical, or mixed (continous and categorical) covariates</td>
+  </tr>
+  <tr>
+    <td><b>Matching method</b>:</td>
+    <td>Matches units with others in unit-specific, hyper-box-shaped regions of the covariate space. 
+    The regions are found as either the solution to a mixed integer program, or by using a fast 
+    approximation algorithm.</td>
+  </tr>
+  <tr>
+    <td><b>Paper</b>:</td>
+    <td><a>	Adaptive Hyper-box Matching for Interpretable Individualized Treatment Effect 
+    Estimation</a></td>
+  </tr>
+</table>
