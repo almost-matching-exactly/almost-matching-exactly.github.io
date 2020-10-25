@@ -30,3 +30,6 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 # Just the Docs theme
 gem "just-the-docs"
+
+# Redirect plugin
+gem 'jekyll-redirect-from'

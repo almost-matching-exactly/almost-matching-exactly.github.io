@@ -3,6 +3,7 @@ layout: default
 title: Software Packages
 nav_order: 3
 permalink: /software
+has_children: true
 ---
 
 # Software Packages
