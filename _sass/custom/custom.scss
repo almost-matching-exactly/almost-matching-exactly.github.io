@@ -6,3 +6,32 @@ table.overview tr {
         cursor: pointer;
     }
 }
+
+table.people {
+    tr {
+        border: none;
+        box-shadow: none;
+        td {
+            text-align: center;
+            width: 33%;
+            border: none;
+            &:hover {
+                background: rgba(0,0,0,0.05);
+            }
+        }
+    }
+    thead {
+        text-align: left !important;
+        border-top: 1px solid;
+    }
+    a {
+        cursor: pointer;
+        display: inline-block;
+        text-decoration: none;
+        color: #5c5962;
+    }
+    img{
+        max-height: 200px;
+        border-radius: 5%;
+    }
+}
