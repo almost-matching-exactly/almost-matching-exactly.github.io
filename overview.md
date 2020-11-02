@@ -38,7 +38,11 @@ Read the summaries below to determine which of our matching algorithms is right 
   </tr>
   <tr>
     <td><b>Paper</b>:</td>
-    <td><a>Interpretable Almost Matching Exactly for Causal Inference</a></td>
+    <td>
+      <a href="https://arxiv.org/abs/1806.06802">
+      Interpretable Almost Matching Exactly for Causal Inference
+      </a>
+    </td>
   </tr>
 </table>
 
@@ -62,7 +66,11 @@ Read the summaries below to determine which of our matching algorithms is right 
   </tr>
   <tr>
     <td><b>Paper</b>:</td>
-    <td><a>FLAME: A Fast Large-scale Almost Matching Exactly Approach to Causal Inference</a></td>
+    <td>
+      <a href="https://arxiv.org/abs/1707.06315">
+      FLAME: A Fast Large-scale Almost Matching Exactly Approach to Causal Inference
+      </a>
+    </td>
   </tr>
 </table>
 
@@ -85,7 +93,11 @@ Read the summaries below to determine which of our matching algorithms is right 
   </tr>
   <tr>
     <td><b>Paper</b>:</td>
-    <td><a>Matching After Learning To Stretch</a></td>
+    <td>
+      <a href="https://arxiv.org/abs/1811.07415">
+      MALTS: Matching After Learning to Stretch
+      </a>
+    </td>
   </tr>
 </table>
 
@@ -108,7 +120,10 @@ Read the summaries below to determine which of our matching algorithms is right 
   </tr>
   <tr>
     <td><b>Paper</b>:</td>
-    <td><a>	Adaptive Hyper-box Matching for Interpretable Individualized Treatment Effect 
-    Estimation</a></td>
+    <td>
+      <a href="https://arxiv.org/abs/2003.01805">
+      Adaptive Hyper-box Matching for Interpretable Individualized Treatment Effect Estimation
+      </a>
+    </td>
   </tr>
 </table>
