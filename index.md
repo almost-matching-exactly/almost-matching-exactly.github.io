@@ -21,7 +21,7 @@ inference using statistical machine learning algorithms.
 The Almost Matching Exactly Lab is a joint venture of the Departments of Computer Science and 
 Statistics at Duke University in Durham, North Carolina. Our goal is to develop and apply interpretable
 machine learning algorithms to estimate causal effects using observational data. In general, our
-algorithms match units with similar covariate distributions, creating high quality exact or almost
+algorithms match units with similar covariate distributions, creating high quality, exact or almost
 exact matches for treatment effect estimation. To learn more about how these algorithms work, visit
 our [algorithm overview](overview) page or read one of our [publications](publications). To begin 
 using one of our matching methods, choose a [software package](software) and get started!
