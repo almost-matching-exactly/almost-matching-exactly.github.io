@@ -81,7 +81,7 @@ using one of our matching methods, choose a [software package](software) and get
     <td>
         <a href="https://stat.duke.edu/people/vittorio-orlandi">
             <img src="./content/peoplephotos/VittorioOrlandi_cropped.jpg"> <br>
-            <h3>Vittorio Orlandi Roy</h3>
+            <h3>Vittorio Orlandi</h3>
             Computer Science
         </a>
     </td>
