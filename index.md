@@ -75,7 +75,7 @@ using one of our matching methods, choose a [software package](software) and get
         <a href="https://marcomorucci.com//bio/">
             <img src="./content/peoplephotos/MarcoMorucci.jpg"> <br/>
             <h3>Marco Morucci</h3>
-            political Science
+            Political Science
         </a>
     </td>
     <td>
