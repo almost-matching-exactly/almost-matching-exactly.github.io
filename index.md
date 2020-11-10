@@ -31,113 +31,120 @@ using one of our matching methods, choose a [software package](software) and get
 <table class="people">
   <thead>
     <tr>
-        <th colspan="3"><h3>Professors</h3></th>
+        <th class="d-large" colspan="3"><h3>Professors</h3></th>
+        <th class="d-small"><h3>Professors</h3></th>
     </tr>
   </thead>
-  <tr>
-    <td>
-        <a href="https://users.cs.duke.edu/~sudeepa/">
-            <img src="./content/peoplephotos/SudeepaRoy_cropped.jpg"> <br>
-            <h3>Sudeepa Roy</h3>
-            Computer Science
-        </a>
-    </td>
-    <td>
-        <a href="https://users.cs.duke.edu/~cynthia/">
-            <img src="./content/peoplephotos/CynthiaRudin_cropped.jpg"> <br/>
-            <h3>Cynthia Rudin</h3>
-            Computer Science
-        </a>
-    </td> 
-    <td>
-        <a href="https://volfovsky.github.io/">
-            <img src="./content/peoplephotos/AlexanderVolfovsky_cropped.jpg"> <br/>
-            <h3>Alexander Volfovsky</h3>
-            Statistics
-        </a>
-    </td>
-  </tr>
-
+  <tbody>
+    <tr>
+        <td>
+            <a href="https://users.cs.duke.edu/~sudeepa/">
+                <img src="./content/peoplephotos/SudeepaRoy_cropped.jpg"> <br/>
+                <h3>Sudeepa Roy</h3>
+                <span>Computer Science</span>
+            </a>
+        </td>
+        <td>
+            <a href="https://users.cs.duke.edu/~cynthia/">
+                <img src="./content/peoplephotos/CynthiaRudin_cropped.jpg"> <br/>
+                <h3>Cynthia Rudin</h3>
+                <span>Computer Science</span>
+            </a>
+        </td> 
+        <td>
+            <a href="https://volfovsky.github.io/">
+                <img src="./content/peoplephotos/AlexanderVolfovsky_cropped.jpg"> <br/>
+                <h3>Alexander Volfovsky</h3>
+                <span>Statistics</span>
+            </a>
+        </td>
+    </tr>
+  </tbody>
   <thead>
     <tr>
-        <th colspan="3"><h3>Graduate Students</h3></th>
+        <th class="d-large" colspan="3"><h3>Graduate Students</h3></th>
+        <th class="d-small"><h3>Graduate Students</h3></th>
     </tr>
   </thead>
-  <tr>
-    <td>
-        <a href="https://nehargupta.github.io/">
-            <img src="./content/peoplephotos/NehaGupta_cropped.jpg"> <br/>
-            <h3>Neha Gupta</h3>
-            Economics and <wbr>Computer Science
-        </a>
-    </td> 
-    <td>
-        <a href="https://marcomorucci.com//bio/">
-            <img src="./content/peoplephotos/MarcoMorucci.jpg"> <br/>
-            <h3>Marco Morucci</h3>
-            Political Science
-        </a>
-    </td>
-    <td>
-        <a href="https://stat.duke.edu/people/vittorio-orlandi">
-            <img src="./content/peoplephotos/VittorioOrlandi_cropped.jpg"> <br>
-            <h3>Vittorio Orlandi</h3>
-            Computer Science
-        </a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-        <a href="https://sites.google.com/view/harshparikh/">
-            <img src="./content/peoplephotos/HarshParikh_cropped.jpg"> <br/>
-            <h3>Harsh Parikh</h3>
-            Computer Science
-        </a>
-    </td>
-    <td>
-        <a href="https://www.linkedin.com/in/xian-sun-9874a9199/">
-            <img src="./content/peoplephotos/XianSun_cropped.jpg"> <br/>
-            <h3>Xian Sun</h3>
-            Computer Science
-        </a>
-    </td> 
-    <td>
-        <a href="https://www.linkedin.com/in/musaidawan/">
-            <img src="./content/peoplephotos/MuhammadUsaidAwan_cropped.jpg"> <br/>
-            <h3>Muhammad Usaid <wbr>Awan</h3>
-            Economics
-        </a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-        <a href="https://www.cs.duke.edu/people/graduates/705">
-            <img src="./content/peoplephotos/TianyuWang_cropped.jpg"> <br>
-            <h3>Tianyu Wang</h3>
-            Computer Science
-        </a>
-    </td>
-  </tr>
-
+  <tbody>
+    <tr>
+        <td>
+            <a href="https://nehargupta.github.io/">
+                <img src="./content/peoplephotos/NehaGupta_cropped.jpg"> <br/>
+                <h3>Neha Gupta</h3>
+                <span>Economics and Computer Science</span>
+            </a>
+        </td> 
+        <td>
+            <a href="https://marcomorucci.com//bio/">
+                <img src="./content/peoplephotos/MarcoMorucci.jpg"> <br/>
+                <h3>Marco Morucci</h3>
+                <span>Political Science</span>
+            </a>
+        </td>
+        <td>
+            <a href="https://stat.duke.edu/people/vittorio-orlandi">
+                <img src="./content/peoplephotos/VittorioOrlandi_cropped.jpg"> <br/>
+                <h3>Vittorio Orlandi</h3>
+                <span>Computer Science</span>
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://sites.google.com/view/harshparikh/">
+                <img src="./content/peoplephotos/HarshParikh_cropped.jpg"> <br/>
+                <h3>Harsh Parikh</h3>
+                <span>Computer Science</span>
+            </a>
+        </td>
+        <td>
+            <a href="https://www.linkedin.com/in/xian-sun-9874a9199/">
+                <img src="./content/peoplephotos/XianSun_cropped.jpg"> <br/>
+                <h3>Xian Sun</h3>
+                <span>Computer Science</span>
+            </a>
+        </td> 
+        <td>
+            <a href="https://www.linkedin.com/in/musaidawan/">
+                <img src="./content/peoplephotos/MuhammadUsaidAwan_cropped.jpg"> <br/>
+                <h3>Muhammad Usaid Awan</h3>
+                <span>Economics</span>
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://www.cs.duke.edu/people/graduates/705">
+                <img src="./content/peoplephotos/TianyuWang_cropped.jpg"> <br/>
+                <h3>Tianyu Wang</h3>
+                <span>Computer Science</span>
+            </a>
+        </td>
+    </tr>
+  </tbody>
   <thead>
     <tr>
-        <th colspan="3"><h3>Undergraduates</h3></th>
+        <th class="d-large" colspan="3"><h3>Undergraduates</h3></th>
+        <th class="d-small"><h3>Undergraduates</h3></th>
     </tr>
   </thead>
-  <tr>
-    <td>
-        <a href="https://www.linkedin.com/in/thomasjhowell">
-            <img src="./content/peoplephotos/ThomasHowell_cropped.jpg"> <br/>
-            <h3>Thomas Howell</h3>
-            Computer Science and <wbr>Mechanical Engineering
-        </a>
-    </td> 
-    <td>
-        <a href="https://www.linkedin.com/in/angikarghosal/">
-            <img src="./content/peoplephotos/AngikarGhosal_cropped.jpg"> <br/>
-            <h3>Angikar Ghosal</h3>
-            Computer Science
-        </a>
-    </td>
-  </tr>
+  <tbody>
+    <tr>
+        <td>
+            <a href="https://www.linkedin.com/in/thomasjhowell">
+                <img src="./content/peoplephotos/ThomasHowell_cropped.jpg"> <br/>
+                <h3>Thomas Howell</h3>
+                <span>Computer Science and Mechanical Engineering</span>
+            </a>
+        </td> 
+        <td>
+            <a href="https://www.linkedin.com/in/angikarghosal/">
+                <img src="./content/peoplephotos/AngikarGhosal_cropped.jpg"> <br/>
+                <h3>Angikar Ghosal</h3>
+                <span>Computer Science</span>
+            </a>
+        </td>
+    </tr>
+  </tbody>
 </table>
