@@ -84,10 +84,10 @@ using one of our matching methods, choose a [software package](software) and get
             </a>
         </td>
         <td>
-            <a href="https://stat.duke.edu/people/vittorio-orlandi">
+            <a href="https://vittorioorlandi.github.io/">
                 <img src="./content/peoplephotos/VittorioOrlandi_cropped.jpg"> <br/>
                 <h3>Vittorio Orlandi</h3>
-                <span>Computer Science</span>
+                <span>Statistics</span>
             </a>
         </td>
     </tr>
