@@ -106,22 +106,6 @@ using one of our matching methods, choose a [software package](software) and get
                 <span>Computer Science</span>
             </a>
         </td> 
-        <td>
-            <a href="https://www.linkedin.com/in/musaidawan/">
-                <img src="./content/peoplephotos/MuhammadUsaidAwan_cropped.jpg"> <br/>
-                <h3>Muhammad Usaid Awan</h3>
-                <span>Economics</span>
-            </a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <a href="https://www.cs.duke.edu/people/graduates/705">
-                <img src="./content/peoplephotos/TianyuWang_cropped.jpg"> <br/>
-                <h3>Tianyu Wang</h3>
-                <span>Computer Science</span>
-            </a>
-        </td>
     </tr>
   </tbody>
   <thead>
@@ -139,6 +123,23 @@ using one of our matching methods, choose a [software package](software) and get
                 <span>Computer Science and Mechanical Engineering</span>
             </a>
         </td> 
+    </tr>
+  </tbody>
+    <thead>
+    <tr>
+        <th class="d-large" colspan="3"><h3>Alumni</h3></th>
+        <th class="d-small"><h3>Alumni</h3></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+        <td>
+            <a href="https://www.cs.duke.edu/people/graduates/705">
+                <img src="./content/peoplephotos/TianyuWang_cropped.jpg"> <br/>
+                <h3>Tianyu Wang</h3>
+                <span>Computer Science</span>
+            </a>
+        </td>
         <td>
             <a href="https://www.linkedin.com/in/angikarghosal/">
                 <img src="./content/peoplephotos/AngikarGhosal_cropped.jpg"> <br/>
@@ -146,6 +147,14 @@ using one of our matching methods, choose a [software package](software) and get
                 <span>Computer Science</span>
             </a>
         </td>
+              <td>
+            <a href="https://www.linkedin.com/in/musaidawan/">
+                <img src="./content/peoplephotos/MuhammadUsaidAwan_cropped.jpg"> <br/>
+                <h3>Muhammad Usaid Awan</h3>
+                <span>Economics</span>
+            </a>
+        </td>
     </tr>
   </tbody>
+
 </table>
