@@ -39,21 +39,21 @@ using one of our matching methods, choose a [software package](software) and get
   <tbody>
     <tr>
         <td>
-            <a href="https://users.cs.duke.edu/~sudeepa/">
+            <a target="_blank" href="https://users.cs.duke.edu/~sudeepa/">
                 <img src="./content/peoplephotos/SudeepaRoy_cropped.jpg"> <br/>
                 <h3>Sudeepa Roy</h3>
                 <span>Computer Science</span>
             </a>
         </td>
         <td>
-            <a href="https://users.cs.duke.edu/~cynthia/">
+            <a target="_blank" href="https://users.cs.duke.edu/~cynthia/">
                 <img src="./content/peoplephotos/CynthiaRudin_cropped.jpg"> <br/>
                 <h3>Cynthia Rudin</h3>
                 <span>Computer Science</span>
             </a>
         </td> 
         <td>
-            <a href="https://volfovsky.github.io/">
+            <a target="_blank" href="https://volfovsky.github.io/">
                 <img src="./content/peoplephotos/AlexanderVolfovsky_cropped.jpg"> <br/>
                 <h3>Alexander Volfovsky</h3>
                 <span>Statistics</span>
@@ -70,21 +70,21 @@ using one of our matching methods, choose a [software package](software) and get
   <tbody>
     <tr>
         <td>
-            <a href="https://nehargupta.github.io/">
+            <a target="_blank" href="https://nehargupta.github.io/">
                 <img src="./content/peoplephotos/NehaGupta_cropped.jpg"> <br/>
                 <h3>Neha Gupta</h3>
                 <span>Economics and Computer Science</span>
             </a>
         </td> 
         <td>
-            <a href="https://marcomorucci.com//bio/">
+            <a target="_blank" href="https://marcomorucci.com//bio/">
                 <img src="./content/peoplephotos/MarcoMorucci.jpg"> <br/>
                 <h3>Marco Morucci</h3>
                 <span>Political Science</span>
             </a>
         </td>
         <td>
-            <a href="https://vittorioorlandi.github.io/">
+            <a target="_blank" href="https://vittorioorlandi.github.io/">
                 <img src="./content/peoplephotos/VittorioOrlandi_cropped.jpg"> <br/>
                 <h3>Vittorio Orlandi</h3>
                 <span>Statistics</span>
@@ -93,17 +93,24 @@ using one of our matching methods, choose a [software package](software) and get
     </tr>
     <tr>
         <td>
-            <a href="https://sites.google.com/view/harshparikh/">
+            <a target="_blank" href="https://sites.google.com/view/harshparikh/">
                 <img src="./content/peoplephotos/HarshParikh_cropped.jpg"> <br/>
                 <h3>Harsh Parikh</h3>
                 <span>Computer Science</span>
             </a>
         </td>
         <td>
-            <a href="https://www.linkedin.com/in/xian-sun-9874a9199/">
+            <a target="_blank" href="https://www.linkedin.com/in/xian-sun-9874a9199/">
                 <img src="./content/peoplephotos/XianSun_cropped.jpg"> <br/>
                 <h3>Xian Sun</h3>
                 <span>Computer Science</span>
+            </a>
+        </td>
+        <td>
+            <a target="_blank" href="https://www.linkedin.com/in/saksham-jain01/?originalSubdomain=in">
+                <img src="./content/peoplephotos/SakshamJain_cropped.jfif"> <br/>
+                <h3>Saksham Jain</h3>
+                <span>Electrical and Computer Engineering</span>
             </a>
         </td> 
     </tr>
@@ -117,10 +124,17 @@ using one of our matching methods, choose a [software package](software) and get
   <tbody>
     <tr>
         <td>
-            <a href="https://www.linkedin.com/in/thomasjhowell">
+            <a target="_blank" href="https://www.linkedin.com/in/thomasjhowell">
                 <img src="./content/peoplephotos/ThomasHowell_cropped.jpg"> <br/>
                 <h3>Thomas Howell</h3>
                 <span>Computer Science and Mechanical Engineering</span>
+            </a>
+        </td>
+        <td>
+            <a target="_blank" href="https://www.linkedin.com/in/haoning-jiang-a15836164/">
+                <img src="./content/peoplephotos/HaoningJiang_cropped.jpg"> <br/>
+                <h3>Haoning Jiang</h3>
+                <span>Computer Science</span>
             </a>
         </td> 
     </tr>
@@ -134,21 +148,21 @@ using one of our matching methods, choose a [software package](software) and get
   <tbody>
     <tr>
         <td>
-            <a href="https://www.cs.duke.edu/people/graduates/705">
+            <a target="_blank" href="https://www.cs.duke.edu/people/graduates/705">
                 <img src="./content/peoplephotos/TianyuWang_cropped.jpg"> <br/>
                 <h3>Tianyu Wang</h3>
                 <span>Computer Science</span>
             </a>
         </td>
         <td>
-            <a href="https://www.linkedin.com/in/angikarghosal/">
+            <a target="_blank" href="https://www.linkedin.com/in/angikarghosal/">
                 <img src="./content/peoplephotos/AngikarGhosal_cropped.jpg"> <br/>
                 <h3>Angikar Ghosal</h3>
                 <span>Computer Science</span>
             </a>
         </td>
               <td>
-            <a href="https://www.linkedin.com/in/musaidawan/">
+            <a target="_blank" href="https://www.linkedin.com/in/musaidawan/">
                 <img src="./content/peoplephotos/MuhammadUsaidAwan_cropped.jpg"> <br/>
                 <h3>Muhammad Usaid Awan</h3>
                 <span>Economics</span>
