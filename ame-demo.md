@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Try AME Demo
-nav_exclude: true
+nav_order: 5
 permalink: /ame-demo
 ---
 
