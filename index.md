@@ -77,10 +77,10 @@ using one of our matching methods, choose a [software package](software) and get
             </a>
         </td> 
         <td>
-            <a target="_blank" href="https://marcomorucci.com//bio/">
-                <img src="./content/peoplephotos/MarcoMorucci.jpg"> <br/>
-                <h3>Marco Morucci</h3>
-                <span>Political Science</span>
+            <a target="_blank" href="https://kattasa.github.io">
+                <img src="./content/peoplephotos/SrikarKatta.jpg"> <br/>
+                <h3>Srikar Katta</h3>
+                <span>Computer Science</span>
             </a>
         </td>
         <td>
@@ -161,7 +161,14 @@ using one of our matching methods, choose a [software package](software) and get
                 <span>Computer Science</span>
             </a>
         </td>
-              <td>
+        <td>
+            <a target="_blank" href="https://marcomorucci.com//bio/">
+                <img src="./content/peoplephotos/MarcoMorucci.jpg"> <br/>
+                <h3>Marco Morucci</h3>
+                <span>Political Science</span>
+            </a>
+        </td>
+        <td>
             <a target="_blank" href="https://www.linkedin.com/in/musaidawan/">
                 <img src="./content/peoplephotos/MuhammadUsaidAwan_cropped.jpg"> <br/>
                 <h3>Muhammad Usaid Awan</h3>
