@@ -94,7 +94,7 @@ using one of our matching methods, choose a [software package](software) and get
     <tr>
         <td>
             <a target="_blank" href="https://sites.google.com/view/harshparikh/">
-                <img src="./content/peoplephotos/HarshParikh_cropped.jpg"> <br/>
+                <img src="./content/peoplephotos/HarshParikh_new.jpg"> <br/>
                 <h3>Harsh Parikh</h3>
                 <span>Computer Science</span>
             </a>
