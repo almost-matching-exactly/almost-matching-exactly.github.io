@@ -73,7 +73,7 @@ using one of our matching methods, choose a [software package](software) and get
             <a target="_blank" href="https://nehargupta.github.io/">
                 <img src="./content/peoplephotos/NehaGupta_cropped.jpg"> <br/>
                 <h3>Neha Gupta</h3>
-                <span>Economics and Computer Science</span>
+                <span>Economics</span>
             </a>
         </td> 
         <td>
@@ -100,17 +100,10 @@ using one of our matching methods, choose a [software package](software) and get
             </a>
         </td>
         <td>
-            <a target="_blank" href="https://www.linkedin.com/in/xian-sun-9874a9199/">
-                <img src="./content/peoplephotos/XianSun_cropped.jpg"> <br/>
-                <h3>Xian Sun</h3>
-                <span>Computer Science</span>
-            </a>
-        </td>
-        <td>
-            <a target="_blank" href="https://www.linkedin.com/in/saksham-jain01/?originalSubdomain=in">
-                <img src="./content/peoplephotos/SakshamJain_cropped.jfif"> <br/>
-                <h3>Saksham Jain</h3>
-                <span>Electrical and Computer Engineering</span>
+            <a target="_blank" href="">
+                <img src="./content/peoplephotos/QuinnLanners_cropped.jpg"> <br/>
+                <h3>Quinn Lanners</h3>
+                <span>Biostatisitcs and Bioinformatics</span>
             </a>
         </td> 
     </tr>
@@ -123,13 +116,6 @@ using one of our matching methods, choose a [software package](software) and get
   </thead>
   <tbody>
     <tr>
-        <td>
-            <a target="_blank" href="https://www.linkedin.com/in/thomasjhowell">
-                <img src="./content/peoplephotos/ThomasHowell_cropped.jpg"> <br/>
-                <h3>Thomas Howell</h3>
-                <span>Computer Science and Mechanical Engineering</span>
-            </a>
-        </td>
         <td>
             <a target="_blank" href="https://www.linkedin.com/in/haoning-jiang-a15836164/">
                 <img src="./content/peoplephotos/HaoningJiang_cropped.jpg"> <br/>
@@ -148,10 +134,10 @@ using one of our matching methods, choose a [software package](software) and get
   <tbody>
     <tr>
         <td>
-            <a target="_blank" href="https://www.cs.duke.edu/people/graduates/705">
-                <img src="./content/peoplephotos/TianyuWang_cropped.jpg"> <br/>
-                <h3>Tianyu Wang</h3>
-                <span>Computer Science</span>
+            <a target="_blank" href="https://www.linkedin.com/in/musaidawan/">
+                <img src="./content/peoplephotos/MuhammadUsaidAwan_cropped.jpg"> <br/>
+                <h3>Muhammad Usaid Awan</h3>
+                <span>Economics</span>
             </a>
         </td>
         <td>
@@ -162,6 +148,20 @@ using one of our matching methods, choose a [software package](software) and get
             </a>
         </td>
         <td>
+            <a target="_blank" href="https://www.linkedin.com/in/thomasjhowell">
+                <img src="./content/peoplephotos/ThomasHowell_cropped.jpg"> <br/>
+                <h3>Thomas Howell</h3>
+                <span>Computer Science and Mechanical Engineering</span>
+            </a>
+        </td>
+        <td>
+            <a target="_blank" href="https://www.linkedin.com/in/saksham-jain01/?originalSubdomain=in">
+                <img src="./content/peoplephotos/SakshamJain_cropped.jfif"> <br/>
+                <h3>Saksham Jain</h3>
+                <span>Electrical and Computer Engineering</span>
+            </a>
+        </td>
+        <td>
             <a target="_blank" href="https://marcomorucci.com//bio/">
                 <img src="./content/peoplephotos/MarcoMorucci.jpg"> <br/>
                 <h3>Marco Morucci</h3>
@@ -169,10 +169,17 @@ using one of our matching methods, choose a [software package](software) and get
             </a>
         </td>
         <td>
-            <a target="_blank" href="https://www.linkedin.com/in/musaidawan/">
-                <img src="./content/peoplephotos/MuhammadUsaidAwan_cropped.jpg"> <br/>
-                <h3>Muhammad Usaid Awan</h3>
-                <span>Economics</span>
+            <a target="_blank" href="https://www.linkedin.com/in/xian-sun-9874a9199/">
+                <img src="./content/peoplephotos/XianSun_cropped.jpg"> <br/>
+                <h3>Xian Sun</h3>
+                <span>Computer Science</span>
+            </a>
+        </td>
+        <td>
+            <a target="_blank" href="https://www.cs.duke.edu/people/graduates/705">
+                <img src="./content/peoplephotos/TianyuWang_cropped.jpg"> <br/>
+                <h3>Tianyu Wang</h3>
+                <span>Computer Science</span>
             </a>
         </td>
     </tr>
