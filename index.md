@@ -78,7 +78,7 @@ using one of our matching methods, choose a [software package](software) and get
         </td> 
         <td>
             <a target="_blank" href="https://kattasa.github.io">
-                <img src="./content/peoplephotos/SrikarKatta_cropped.jpg"> <br/> 
+                <img src="./content/peoplephotos/SrikarKatta_cropped.jpg"> <br/>
                 <h3>Srikar Katta</h3>
                 <span>Computer Science</span>
             </a>
