@@ -154,6 +154,8 @@ using one of our matching methods, choose a [software package](software) and get
                 <span>Computer Science and Mechanical Engineering</span>
             </a>
         </td>
+    </tr>
+    <tr>
         <td>
             <a target="_blank" href="https://www.linkedin.com/in/saksham-jain01/?originalSubdomain=in">
                 <img src="./content/peoplephotos/SakshamJain_cropped.jfif"> <br/>
@@ -175,6 +177,8 @@ using one of our matching methods, choose a [software package](software) and get
                 <span>Computer Science</span>
             </a>
         </td>
+    </tr>
+    <tr>
         <td>
             <a target="_blank" href="https://www.cs.duke.edu/people/graduates/705">
                 <img src="./content/peoplephotos/TianyuWang_cropped.jpg"> <br/>
