@@ -103,7 +103,7 @@ using one of our matching methods, choose a [software package](software) and get
             <a target="_blank" href="">
                 <img src="./content/peoplephotos/QuinnLanners_cropped.jpg"> <br/>
                 <h3>Quinn Lanners</h3>
-                <span>Biostatisitcs and Bioinformatics</span>
+                <span>Biostatistics and Bioinformatics</span>
             </a>
         </td> 
     </tr>
