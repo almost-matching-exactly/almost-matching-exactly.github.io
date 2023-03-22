@@ -127,3 +127,30 @@ Read the summaries below to determine which of our matching algorithms is right 
     </td>
   </tr>
 </table>
+
+## Model-to-Match: Lasso Coefficient Matching (LCM)
+
+<table class="overview">
+  <tr>
+    <td><b>Languages</b>:</td> 
+    <td>Python</td>
+  </tr>
+  <tr>
+    <td><b>Input data</b>:</td>
+    <td>Continuous covariates</td>
+  </tr>
+  <tr>
+    <td><b>Matching method</b>:</td>
+    <td>Creates almost exact matches in a computationally scalable manner, which works well for high-dimensional and/or big data. The feature importances from an outcome regression model are used as distance metric weights. </td>
+  </tr>
+  <tr>
+    <td><b>Paper</b>:</td>
+    <td>
+      <a href="https://arxiv.org/abs/2302.11715">
+      From Feature Importance to Distance Metric: An Almost Exact Matching Approach for Causal Inference
+      </a>
+    </td>
+  </tr>
+</table>
+
+
