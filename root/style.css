@@ -235,7 +235,7 @@ hr {
 }
 
 .pub-list li {
-  margin-bottom: 1em;
+  margin-top: 1em;
   border-bottom: 1px solid #eee;
   padding-bottom: 1em;
   line-height: 1.6;       /* line spacing within each entry */
