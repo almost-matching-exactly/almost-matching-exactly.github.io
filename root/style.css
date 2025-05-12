@@ -248,3 +248,53 @@ hr {
   padding-bottom: 1em;
   line-height: 1.6;       /* line spacing within each entry */
 }
+
+/* Hide by default on desktop */
+.mobile-nav {
+  display: none;
+  padding: 1em;
+  background: #f0f0f0;
+  border-bottom: 1px solid #ddd;
+}
+
+.nav-toggle-label {
+  font-size: 1.4em;
+  cursor: pointer;
+}
+
+.dropdown-nav {
+  display: none;
+  margin-top: 0.5em;
+}
+
+#nav-toggle:checked + .nav-toggle-label + .dropdown-nav {
+  display: block;
+}
+
+.dropdown-nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.dropdown-nav ul li {
+  margin: 0.5em 0;
+}
+
+.dropdown-nav ul li a {
+  text-decoration: none;
+  color: #1d4ed8;
+}
+
+/* On mobile: hide sidebar, show dropdown */
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+  .mobile-nav {
+    display: block;
+  }
+  .content {
+    padding: 2em 1em;
+  }
+}
