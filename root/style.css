@@ -52,7 +52,7 @@ body {
 .content {
   flex: 1;
   padding: 2em 3em;
-  max-width: 960px;      /* <-- limit width */
+  max-width: 720px;      /* <-- limit width */
   margin: 0 auto;        /* <-- center horizontally */
 }
 .top-header {
@@ -194,6 +194,7 @@ hr {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
   margin-bottom: 2em;
   overflow: hidden;
+  margin-bottom: 2.5em; /* space below each table */
 }
 
 .overview-table td {
@@ -215,7 +216,15 @@ hr {
 }
 
 .overview h2 {
-  font-size: 1.3em;
-  margin-bottom: 0.5em;
+  margin-top: 2em;
+  margin-bottom: 0.6em;
+  font-size: 1.4em;
   color: #1a1a1a;
+}
+
+
+.overview h2 {
+  margin-top: 2em;
+  margin-bottom: 0.6em;
+  font-size: 1.4em;
 }
