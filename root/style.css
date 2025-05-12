@@ -228,3 +228,15 @@ hr {
   margin-bottom: 0.6em;
   font-size: 1.4em;
 }
+
+.pub-list {
+  list-style: none;
+  padding: 0;
+}
+
+.pub-list li {
+  margin-bottom: 2em;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1em;
+  line-height: 1.6;       /* line spacing within each entry */
+}
