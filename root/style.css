@@ -15,9 +15,17 @@ body {
   min-height: 100vh;
 }
 
+
+/* New margin column */
+.side-margin {
+  background: #f6f7fb;  /* same as sidebar */
+  width: 60px;          /* or 5%, adjust as needed */
+  flex-shrink: 0;
+}
+
 /* Sidebar */
 .sidebar {
-  width: 260px;
+  width: clamp(180px, 20%, 240px);
   background: #f6f7fb;
   padding: 2em 1em;
   flex-shrink: 0;
