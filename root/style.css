@@ -1,52 +1,117 @@
-body {
-  font-family: Arial, sans-serif;
+* {
+  box-sizing: border-box;
   margin: 0;
-  background: #fdfdfd;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  background: #fff;
   color: #333;
 }
 
-.container {
-  width: 90%;
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 1em 0;
+.layout {
+  display: flex;
+  min-height: 100vh;
 }
 
-header {
-  background: #fff;
-  border-bottom: 1px solid #ccc;
-  padding: 1em 0;
+/* Sidebar */
+.sidebar {
+  width: 260px;
+  background: #f6f7fb;
+  padding: 2em 1em;
+  flex-shrink: 0;
+  border-right: 1px solid #e1e1e1;
 }
 
-.logo {
-  max-height: 60px;
-  display: block;
+.sidebar-logo {
+  max-width: 100%;
+  margin-bottom: 2em;
+}
+
+.sidebar nav ul {
+  list-style: none;
+}
+
+.sidebar nav ul li {
+  margin: 0.8em 0;
+}
+
+.sidebar nav ul li a {
+  text-decoration: none;
+  color: #0050b3;
+  font-weight: 500;
+}
+
+.sidebar nav ul li a.active,
+.sidebar nav ul li a:hover {
+  color: #1d4ed8;
+}
+
+/* Content */
+.content {
+  flex: 1;
+  padding: 2em 3em;
+}
+
+.top-header {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 2em;
+}
+
+.github-link a {
+  text-decoration: none;
+  color: #1d4ed8;
+  font-weight: 500;
+}
+
+.hero h1 {
+  font-size: 2em;
   margin-bottom: 0.5em;
 }
 
-nav ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  gap: 1.5em;
+.hero p {
+  font-size: 1.1em;
+  margin-bottom: 1em;
 }
 
-nav a {
+.cta-button {
+  background: #f9fafb;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  padding: 0.6em 1em;
+  color: #1d4ed8;
   text-decoration: none;
-  color: #007acc;
-  font-weight: bold;
+  font-weight: 500;
+  display: inline-block;
 }
 
-main {
-  text-align: center;
-  padding: 2em 0;
+.cta-button:hover {
+  background: #e5efff;
 }
 
-footer {
-  text-align: center;
-  padding: 1em 0;
-  font-size: 0.9em;
-  color: #666;
-  border-top: 1px solid #ccc;
+.about {
   margin-top: 2em;
+  line-height: 1.6;
+}
+
+.about h2 {
+  font-size: 1.4em;
+  margin-bottom: 0.6em;
+}
+
+.about a {
+  color: #1d4ed8;
+  text-decoration: none;
+}
+
+.about a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  margin: 2em 0;
+  border: none;
+  border-top: 1px solid #eee;
 }
