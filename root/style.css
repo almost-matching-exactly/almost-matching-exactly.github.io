@@ -178,19 +178,44 @@ hr {
   text-decoration: none;
   color: inherit;
 }
+.overview {
+  margin-top: 2em;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .overview-table {
   width: 100%;
-  margin-bottom: 2em;
   border-collapse: collapse;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2em;
+  overflow: hidden;
 }
 
 .overview-table td {
-  padding: 0.5em 1em;
+  padding: 1em 1.2em;
+  border-top: 1px solid #eee;
   vertical-align: top;
 }
 
 .overview-table td:first-child {
   font-weight: bold;
-  width: 180px;
+  width: 200px;
+  white-space: nowrap;
+  color: #444;
+  background: #f9f9f9;
+}
+
+.overview-table tr:first-child td {
+  border-top: none;
+}
+
+.overview h2 {
+  font-size: 1.3em;
+  margin-bottom: 0.5em;
+  color: #1a1a1a;
 }
