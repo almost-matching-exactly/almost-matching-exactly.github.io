@@ -19,7 +19,7 @@ body {
 /* New margin column */
 .side-margin {
   background: #f6f7fb;  /* same as sidebar */
-  width: 60px;          /* or 5%, adjust as needed */
+  width: clamp(180px, 10%, 240px);
   flex-shrink: 0;
 }
 
@@ -54,14 +54,6 @@ body {
 .sidebar nav ul li a.active,
 .sidebar nav ul li a:hover {
   color: #1d4ed8;
-}
-
-.left-margin {
-  width: clamp(180px, 10%, 240px); /* responsive: 20% width, min 180px, max 240px */
-  background: #f6f7fb;
-  padding: 2em 1em;
-  flex-shrink: 0;
-  /* border-right: 1px solid #e1e1e1; */
 }
 
 /* Content */
@@ -296,7 +288,7 @@ hr {
 
 /* On mobile: hide sidebar, show dropdown */
 @media (max-width: 768px) {
-  .left-margin {
+  .side-margin {
     display: none;
   }
   .sidebar {
