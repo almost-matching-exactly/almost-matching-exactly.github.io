@@ -289,7 +289,7 @@ hr {
 /* On mobile: hide sidebar, show dropdown */
 @media (max-width: 768px) {
   .side-margin {
-    display: none;
+    display: none !important;
   }
   .sidebar {
     display: none;
