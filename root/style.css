@@ -133,10 +133,23 @@ hr {
 
 .people-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 1.5em;
+  grid-template-columns: repeat(3, 1fr); /* 3 per row */
+  gap: 2em;
   margin-top: 1em;
 }
+
+@media (max-width: 900px) {
+  .people-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 per row on tablets */
+  }
+}
+
+@media (max-width: 600px) {
+  .people-grid {
+    grid-template-columns: 1fr; /* 1 per row on phones */
+  }
+}
+
 
 .person {
   text-align: center;
