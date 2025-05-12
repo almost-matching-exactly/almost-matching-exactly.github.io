@@ -256,6 +256,9 @@ hr {
   background: #f0f0f0;
   border-bottom: 1px solid #ddd;
 }
+#nav-toggle {
+  display: none;
+}
 
 .nav-toggle-label {
   font-size: 1.4em;
