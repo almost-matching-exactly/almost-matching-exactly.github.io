@@ -52,8 +52,9 @@ body {
 .content {
   flex: 1;
   padding: 2em 3em;
+  max-width: 960px;      /* <-- limit width */
+  margin: 0 auto;        /* <-- center horizontally */
 }
-
 .top-header {
   display: flex;
   justify-content: flex-end;
