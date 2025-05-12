@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: system-ui, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;  
   background: #fff;
   color: #333;
 }
@@ -177,4 +177,20 @@ hr {
 .person a {
   text-decoration: none;
   color: inherit;
+}
+
+.overview-table {
+  width: 100%;
+  margin-bottom: 2em;
+  border-collapse: collapse;
+}
+
+.overview-table td {
+  padding: 0.5em 1em;
+  vertical-align: top;
+}
+
+.overview-table td:first-child {
+  font-weight: bold;
+  width: 180px;
 }
