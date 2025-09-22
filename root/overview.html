@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Almost Matching Exactly Lab</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="mobile-nav">
+    <input type="checkbox" id="nav-toggle" />
+    <label for="nav-toggle" class="nav-toggle-label">&#9776; Menu</label>
+    <div class="dropdown-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="overview.html">Algorithm Overview</a></li>
+        <!-- <li><a href="software.html">Software Packages</a></li>
+        <li><a href="demo.html">Try AME Demo</a></li> -->
+      </ul>
+    </div>
+  </header>
+  <div class="layout">
+    <div class="side-margin"></div> <!-- NEW MARGIN COLUMN -->
+    <aside class="sidebar">
+      <img src="assets/logo.svg" alt="Duke AME Lab" class="sidebar-logo" />
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="overview.html">Algorithm Overview</a></li>
+          <!-- <li><a href="software.html">Software Packages</a></li>
+          <li><a href="demo.html">Try AME Demo</a></li> -->
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="content overview">
+      <h1>Algorithm Overview</h1>
+      <p>Read the summaries below to determine which of our matching algorithms is right for you.</p>
+
+      <h2>Dynamic Almost Matching Exactly (DAME)</h2>
+      <table class="overview-table">
+        <tr><td><b>Languages</b>:</td><td>Python</td></tr>
+        <tr><td><b>Input data</b>:</td><td>Categorical covariates, works best with small to moderately-sized datasets</td></tr>
+        <tr><td><b>Matching method</b>:</td><td>Uses bit-vector computations to match units based on a learned, weighted Hamming distance.</td></tr>
+        <tr><td><b>Paper</b>:</td><td><a href="https://arxiv.org/abs/1806.06802">Interpretable Almost Matching Exactly for Causal Inference</a></td></tr>
+      </table>
+
+      <h2>Fast Large-Scale Almost Matching Exactly (FLAME)</h2>
+      <table class="overview-table">
+        <tr><td><b>Languages</b>:</td><td>R, Python</td></tr>
+        <tr><td><b>Input data</b>:</td><td>Categorical covariates, scales well to large datasets with millions of observations</td></tr>
+        <tr><td><b>Matching method</b>:</td><td>Uses bit-vector computations to match units based on a learned, weighted Hamming distance. FLAME successively drops irrelevant covariates to lessen the computational load while still maintaining enough covariates for high-quality conditional average treatment effect (CATE) estimation.</td></tr>
+        <tr><td><b>Paper</b>:</td><td><a href="https://arxiv.org/abs/1707.06315">FLAME: A Fast Large-scale Almost Matching Exactly Approach to Causal Inference</a></td></tr>
+      </table>
+
+      <h2>Matching After Learning to Stretch (MALTS)</h2>
+      <table class="overview-table">
+        <tr><td><b>Languages</b>:</td><td>Python</td></tr>
+        <tr><td><b>Input data</b>:</td><td>Continuous, categorical, or mixed (continuous and categorical) covariates</td></tr>
+        <tr><td><b>Matching method</b>:</td><td>Uses exact matching for discrete variables and learned, generalized Mahalanobis distances for continuous variables. Instead of a predetermined distance metric, the covariates contributing more towards predicting the outcome are given higher weights.</td></tr>
+        <tr><td><b>Paper</b>:</td><td><a href="https://arxiv.org/abs/1811.07415">MALTS: Matching After Learning to Stretch</a></td></tr>
+      </table>
+
+      <h2>Adaptive Hyper-Box Matching (AHB)</h2>
+      <table class="overview-table">
+        <tr><td><b>Languages</b>:</td><td>R</td></tr>
+        <tr><td><b>Input data</b>:</td><td>Continuous, categorical, or mixed (continuous and categorical) covariates</td></tr>
+        <tr><td><b>Matching method</b>:</td><td>Matches units with others in unit-specific, hyper-box-shaped regions of the covariate space. The regions are found as either the solution to a mixed integer program, or by using a fast approximation algorithm.</td></tr>
+        <tr><td><b>Paper</b>:</td><td><a href="https://arxiv.org/abs/2003.01805">Adaptive Hyper-box Matching for Interpretable Individualized Treatment Effect Estimation</a></td></tr>
+      </table>
+
+      <h2>Model-to-Match: Lasso Coefficient Matching (LCM)</h2>
+      <table class="overview-table">
+        <tr><td><b>Languages</b>:</td><td>Python</td></tr>
+        <tr><td><b>Input data</b>:</td><td>Continuous covariates</td></tr>
+        <tr><td><b>Matching method</b>:</td><td>Creates almost exact matches in a computationally scalable manner, which works well for high-dimensional and/or big data. The feature importances from an outcome regression model are used as distance metric weights.</td></tr>
+        <tr><td><b>Paper</b>:</td><td><a href="https://arxiv.org/abs/2302.11715">From Feature Importance to Distance Metric: An Almost Exact Matching Approach for Causal Inference</a></td></tr>
+      </table>
+    </main>
+  </div>
+</body>
+</html>
